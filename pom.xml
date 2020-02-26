@@ -123,6 +123,8 @@
 							</transformers>
 							<createDependencyReducedPom>false</createDependencyReducedPom>
 							<minimizeJar>true</minimizeJar>
+							<shadedArtifactAttached>true</shadedArtifactAttached>
+							<shadedClassifierName>ip-geolocator-1.0-jar-with-dependencies</shadedClassifierName>
 						</configuration>
 					</execution>
 				</executions>
