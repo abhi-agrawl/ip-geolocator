@@ -26,10 +26,9 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-			<version>29.0-jre</version>
-			<scope>compile</scope>
+		  <groupId>com.google.guava</groupId>
+		  <artifactId>guava</artifactId>
+		  <version>[30.0-jre,)</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-io</groupId>
